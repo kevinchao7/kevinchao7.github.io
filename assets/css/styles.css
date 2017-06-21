@@ -1,0 +1,149 @@
+html {
+    /*overflow: hidden;*//*Prevents browser overscrolling*/
+    /*height: 100%;*//*Prevents browser overscrolling*/
+}
+body{
+	margin:auto;
+	padding:0;
+	background:url('../images/small_steps.png');
+	/*height:100%; *//*Prevents browser overscrolling*/
+	/*overflow:auto; *//*Prevents browser overscrolling*/
+}
+header{
+	border-bottom:2px solid #d3d3d3;
+	background:#fff;
+}
+#header-container{
+	position:relative;
+	width:75%;
+	margin:auto;
+	overflow:auto;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+#name-content{
+	text-align:center;
+	min-width:190px;
+	width:33.3%;
+	float:left;
+	bottom:0;
+	background:#4aaaa5;
+	height:100px;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+#name-content h1{
+	color:#ffffff;
+}
+nav{
+	font-family:Verdana,'Georgia', Times, "Times New Roman", serif;
+	font-size:14px;
+	position:absolute;
+	width:40%;
+	float:left;
+	right:0;
+	height:60px;
+}
+#nav{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+#nav a{
+	color:#777;
+	text-decoration:none;
+}
+.border{
+	margin-right:3px;
+	position:relative;
+	top:1px;
+	display:inline;
+	font-weight:200;
+	border-right:1px solid #d3d3d3;
+}
+h1{
+	margin:10px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#body-container{
+	margin:auto;
+	width:75%;
+}
+section{
+	color:#4aaaa5;
+	margin:40px 0;
+	width:65%;
+	float:left;
+	background:#fff;
+}
+#connect-content{
+	margin:40px 0;
+	width:30%;
+	float:right;
+	color:#4aaaa5;
+	background:#fff;
+	text-align:center;
+}
+hr{
+	height:2px;
+	background-color:#d3d3d3;
+	margin:0 10px;
+	color:#d3d3d3;
+	border-style:solid;
+}
+section hr {
+	margin-bottom:20px;
+}
+section p {
+	margin:0 25px;
+	color:#777;
+	line-height:200%;
+}
+section img{
+	margin-left:25px;
+}
+#connect-content hr{
+	margin-bottom:20px;
+}
+#connect-content #git{
+	margin:10px 0 0 10px;
+}
+#connect-content #linkedin{
+	margin:10px 0 0 15px;
+}
+#connect-content #stackoverflow{
+	margin-left:10px;
+}
+footer{
+	border-top:5px solid #4aaaa5;
+	background:#666;
+	height:100px;
+	text-align:center;
+}
+#copyright-container{
+	color:#d3d3d3;
+	height:100%;
+	display:flex;
+	vertical-align:middle;
+	justify-content:center;
+	align-items:center;
+	font-family:Verdana,'Georgia', Times, "Times New Roman", serif;
+	font-size:10px;
+}
+#pic-container{
+	width:200px;
+	height:150px;
+	position:relative;
+	text-align:center;
+	/*border:1px solid black;*/
+}
+#pic-container a p{
+	width:100%;
+	position:absolute;
+	bottom:0;
+	background:#4aaaa5;
+}
